@@ -1,7 +1,10 @@
-﻿
+﻿Console.WriteLine("Adaja meg a gépek számát");
+int b = Convert.ToInt32(Console.ReadLine());
+Console.WriteLine("Adja mega munkák számát");
+int a = Convert.ToInt32(Console.ReadLine());
 Console.WriteLine("Kérem adjon meg a fájl nevét és kiterjesztését:");
 string nev = Console.ReadLine();
-Kell[,] matrix = new Kell[1,3];
+Kell[,] matrix = new Kell[a,b];
 using (StreamReader sr = new StreamReader(nev))
 {
     string line;

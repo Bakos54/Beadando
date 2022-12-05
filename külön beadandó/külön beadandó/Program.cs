@@ -1,7 +1,7 @@
 ﻿
 Console.WriteLine("Kérem adjon meg a fájl nevét és kiterjesztését:");
 string nev = Console.ReadLine();
-Kell[,] matrix = new Kell[4,4];
+Kell[,] matrix = new Kell[1,3];
 using (StreamReader sr = new StreamReader(nev))
 {
     string line;
